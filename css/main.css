@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/heebo-v18-latin-regular.woff2') format('woff2'),
+         url('../fonts/heebo-v18-latin-regular.woff') format('woff'); 
+  }
+  @font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('../fonts/heebo-v18-latin-600.woff2') format('woff2'), 
+         url('../fonts/heebo-v18-latin-600.woff') format('woff'); 
+  }
+  @font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/heebo-v18-latin-700.woff2') format('woff2'), 
+         url('../fonts/heebo-v18-latin-700.woff') format('woff'); 
+  }
+  *{
+      box-sizing: border-box;
+  }
+  a{
+      text-decoration: none;
+  }
+  .header__top{
+      /* background-color: red; */
+      margin: 0;
+      padding: 0;
+  }
+  .header__top__right{
+      width: 1200px;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      justify-content: right;
+  }
+  .container{
+      width: 860px;
+      margin-right: auto;
+      margin-left: auto;
+      /* border: 1px solid red; */
+      /* height: 400px; */
+      margin-top: 158px;
+  }
+  .header__list{
+      display: flex;
+      list-style-type: none;
+  }
+  .list__item{
+      margin-left: 33px;
+  }
+  .item__link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+  }
+  .section__container{
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 50px;
+  }
+  .container__left__heading{
+      width: 506px;
+      font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 60px;
+color: #21243D;
+  }
+  .container__left__text{
+      width: 497px;
+      font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+  }
+  .header__btn{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      margin-top: 38px;
+      line-height: 29px;
+      height: 47px;
+      background: #FF6464;
+      border-radius: 2px;
+      padding: 10px 21px 15px;
+      color: white;
+      border: none;
+  }
+  .header__btn:hover{
+      background-color:white ;
+      color:#FF6464;
+      border: 2px solid #FF6464;
+      transition: all 0.5s ease;
+  }
